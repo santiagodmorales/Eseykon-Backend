@@ -56,4 +56,4 @@ const {name, email, message } = req.body;
 const PORT = process.env.PORT || 8000;
     app.listen(PORT, () => {
         console.log(`PORT: ${PORT}`);
-    });
+    })
